@@ -50,5 +50,5 @@
   - the changes of that tree were back ported into the v6.1 mainline lts tree as base
   - the hdmi output is working finally with the changes in this tree, but it does not seem to work well with all hdmi display modes (so it might not work with some monitors)
   - some boxes (at least the s802 based mxiii box) seem to loose access to the sd card after a warm reboot (and will reboot into android instead), shutdown and cold boot is working fine - i think i had it working better at some point while trying to get this kernel working, but will have to try to reproduce at which state (kernel config, dtb, dvfs and gpu enabled/disabled etc.) that was
-  - erhernet does not seem to work on boxes with gigabit ethernet ports, usb-ethernet is working fine on them as a workaround for now
+  - ethernet does not seem to work on boxes with gigabit ethernet ports, usb-ethernet is working fine on them as a workaround for now
   - lima gpu support seems to be working
